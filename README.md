@@ -159,6 +159,6 @@ This project proves my ability to:
 
 ---
 
-# 📬 Contact - **adarsh Jayprakash Mishra**
+# 📬 Contact - **Adarsh Jayprakash Mishra**
 Follow me on LinkedIn : [My LinkedIn Profile](https://www.linkedin.com/in/adarsh-jayprakash-mishra)<br>
 Follow me on Instagram : [My Instagram Profile](https://www.instagram.com/ltx_adarsh18)
