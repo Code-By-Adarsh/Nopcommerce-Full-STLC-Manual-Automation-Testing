@@ -153,6 +153,6 @@ This project proves my ability to:
 
 ---
 
-# 📬 Contact  
-Follow me on LinkedIn : [Adarsh Mishra](https://www.linkedin.com/in/adarsh-jayprakash-mishra)<br>
-Follow me on Instagram : [Adarsh Mishra](https://www.instagram.com/ltx_adarsh18)
+# 📬 Contact - **adarsh Jayprakash Mishra**
+Follow me on LinkedIn : [My LinkedIn Profile](https://www.linkedin.com/in/adarsh-jayprakash-mishra)<br>
+Follow me on Instagram : [My Instagram Profile](https://www.instagram.com/ltx_adarsh18)
