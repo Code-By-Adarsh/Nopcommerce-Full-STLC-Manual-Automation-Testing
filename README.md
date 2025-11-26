@@ -154,9 +154,5 @@ This project proves my ability to:
 ---
 
 # 📬 Contact  
-For feedback or collaboration, feel free to reach out!
-
-
-
-
-
+Follow me on LinkedIn : [Adarsh Mishra](https://www.linkedin.com/in/adarsh-jayprakash-mishra)
+Follow me on Instagram : [Adarsh Mishra](https://www.instagram.com/ltx_adarsh18)
