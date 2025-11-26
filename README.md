@@ -17,14 +17,20 @@ A robust, feature-rich e-commerce platform suitable for deep manual and automati
 
 # 🖼 Screenshots 
 
-### 🖼 Homepage Screenshot  
-![Homepage Screenshot](assets/homepage.png)
+### 🖼 Home Page
+<img src="Assets/Home Page.png" alt="Home Page Screenshot" width="650px" />
 
-### 🖼 Login Page Screenshot  
-![Login Screenshot](assets/login.png)
+### 🖼 Register Page
+<img src="Assets/Register Page.png" alt="Register Page Screenshot" width="650px" />
 
-### 🖼 Product Page Screenshot  
-![Product Screenshot](assets/product.png)
+### 🖼 Login Page
+<img src="Assets/Login Page.png" alt="Login Page Screenshot" width="650px" />
+
+### 🖼 Wishlist Page
+<img src="Assets/Wishlist Page.png" alt="Wishlist Page Screenshot" width="650px" />
+
+### 🖼 Cart Page
+<img src="Assets/Cart Page.png" alt="Cart Page Screenshot" width="650px" />
 
 ---
 
