@@ -37,14 +37,13 @@ A robust, feature-rich e-commerce platform suitable for deep manual and automati
 # 📁 Repository Structure
 
 nopcommerce-full-stlc-manual-automation-testing/<br>
-├──Assets<br>
-│<br>
+├──Assets/<br>
 ├── Manual/<br>
 │ ├── SRS-Document/<br>
 │ ├── Test-Plan-Document/<br>
 │ ├── Test-Scenario-Document/<br>
 │ ├── Test-Case-Document/<br>
-| ├── Test-Data-Document<br>
+│ ├── Test-Data-Document/<br>
 │ ├── Bug-Report/<br>
 │ ├── Test-Execution-Document/<br>
 │ ├── Test-Summary-Document/<br>
