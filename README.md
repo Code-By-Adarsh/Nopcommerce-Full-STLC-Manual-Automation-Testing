@@ -32,6 +32,9 @@ A robust, feature-rich e-commerce platform suitable for deep manual and automati
 ### 🖼 Cart Page
 <img src="Assets/Cart Page.png" alt="Cart Page Screenshot" width="650px" />
 
+### 🖼 User Account Page
+<img src="Assets/User Account Page.png" alt="User Account Page Screenshot" width="650px" />
+
 ---
 
 # 📁 Repository Structure
@@ -46,8 +49,8 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 │ │ ├── Test-Plan-Document.docx<br>
 │ │ └── Test-Plan-Document.pdf<br>
 │ ├── Test-Scenario-Document/<br>
+│ │ └── Test-Scenarios-Document.xlsx<br>
 │ ├── Test-Case-Document/<br>
-│ ├── Test-Data-Document/<br>
 │ ├── Bug-Report/<br>
 │ ├── Test-Execution-Document/<br>
 │ ├── Test-Summary-Document/<br>
