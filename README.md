@@ -40,7 +40,11 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 ├──Assets/<br>
 ├── Manual/<br>
 │ ├── SRS-Document/<br>
+│ │ ├── SRS-Document.docx<br>
+│ │ └── SRS-Document.pdf<br>
 │ ├── Test-Plan-Document/<br>
+│ │ ├── Test-Plan-Document.docx<br>
+│ │ └── Test-Plan-Document.pdf<br>
 │ ├── Test-Scenario-Document/<br>
 │ ├── Test-Case-Document/<br>
 │ ├── Test-Data-Document/<br>
