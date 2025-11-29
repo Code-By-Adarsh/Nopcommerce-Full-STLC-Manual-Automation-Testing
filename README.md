@@ -51,6 +51,7 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 │ ├── Test-Scenario-Document/<br>
 │ │ └── Test-Scenarios-Document.xlsx<br>
 │ ├── Test-Case-Document/<br>
+│ │ └── Test-Cases-Document.xlsx<br>
 │ ├── Bug-Report/<br>
 │ ├── Test-Execution-Document/<br>
 │ ├── Test-Summary-Document/<br>
