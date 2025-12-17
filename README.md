@@ -53,23 +53,35 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 │ ├── Test-Case-Document/<br>
 │ │ └── Test-Cases-Document.xlsx<br>
 │ ├── Bug-Report/<br>
+│ │ └── Bug-Report.xlsx<br>
 │ ├── Test-Execution-Document/<br>
+│ │ └── Test-Execution-Document.xlsx<br>
 │ ├── Test-Summary-Document/<br>
 │<br>
-├── automation/<br>
+├──Aautomation/<br>
 │ ├── src/main/java/<br>
 │ │ ├── base/<br>
+│ │ │ └── BaseTest.java<br> 
 │ │ ├── pages/<br>
+│ │ │ └── Homepage.java<br> 
+│ │ ├── reports/<br>
+│ │ │ └── ExtentReportManager.java<br> 
 │ │ ├── utils/<br>
-│ │ └── config/<br>
+│ │ │ └── ScreenshotUtil.java<br> 
+│ ├── src/main/report/extent-report<br>
+│ │ │ └── screenshots<br>
+│ │ │ └── NopCommerceReport.html<br>
+│ ├── src/main/resources<br>
 │ │<br>
 │ ├── src/test/java/<br>
 │ │ ├── tests/<br>
-│ │ └── dataproviders/<br>
+│ │ │ └── HomepageTest.jsvs<br>
+│ │ └── listeners/<br>
+│ │ │ └── ExtentListener.java<br>
+│ ├── src/test/resources/<br>
+│ │ │ └── testng.xml<br>
 │ │<br>
 │ ├── pom.xml<br>
-│ ├── testng.xml<br>
-│ └── reports/<br>
 │<br>
 └── README.md<br>
 
@@ -148,7 +160,7 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 |------------------|------------|
 | Manual Testing    | MS Excel, MS Word |
 | Automation        | Selenium, Java, TestNG, Maven |
-| Reporting         | Extent Reports & Allure Report |
+| Reporting         | Extent Report |
 | Version Control   | Git, GitHub |
 | AUT               | NopCommerce Demo Store |
 
