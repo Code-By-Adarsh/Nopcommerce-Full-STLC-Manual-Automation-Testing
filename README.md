@@ -80,9 +80,7 @@ nopcommerce-full-stlc-manual-automation-testing/<br>
 │ │ │ └── ExtentListener.java<br>
 │ ├── src/test/resources/<br>
 │ │ │ └── testng.xml<br>
-│ │<br>
 │ ├── pom.xml<br>
-│<br>
 └── README.md<br>
 
 
