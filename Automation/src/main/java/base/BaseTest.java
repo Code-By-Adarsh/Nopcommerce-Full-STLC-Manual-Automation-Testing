@@ -11,6 +11,10 @@ public class BaseTest {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
+    public WebDriver getDriver(){
+        return driver;
+    }
+
     @BeforeSuite
     public void setUpSuite(){
         System.out.println("----- NopCommerce Suite Started -----");
@@ -18,15 +22,15 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUpTest(){
+        System.out.println("----- Launching Browser -----");
         driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.get("https://demo.nopcommerce.com/");
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     @AfterMethod
     public void tearDownTest(){
+        System.out.println("----- Closing Browser -----");
         if (driver != null){
             driver.quit();
         }

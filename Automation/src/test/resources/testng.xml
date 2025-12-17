@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="NopCommerce" parallel="false">
-    <test name="Homepage Test">
-
+<suite name="NopCommerce" verbose="2" parallel="false">
+    <listeners>
+        <listener class-name="listeners.ExtentListener" />
+    </listeners>
+    <test name="Homepage Module Test">
+        <classes>
+            <class name="tests.HomepageTest" />
+        </classes>
     </test>
 </suite>
