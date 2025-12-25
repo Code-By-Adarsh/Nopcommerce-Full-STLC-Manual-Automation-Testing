@@ -9,4 +9,10 @@
             <class name="tests.HomepageTest" />
         </classes>
     </test>
+
+    <test name="Register Module Test">
+        <classes>
+            <class name="tests.RegisterTest" />
+        </classes>
+    </test>
 </suite>

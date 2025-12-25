@@ -9,10 +9,10 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
-public class screenshotUtil {
+public class ScreenshotUtil {
 
     public static String captureScreenshot(WebDriver driver,String testName){
-        String screenshotDir = System.getProperty("user.dir")+"\\src\\main\\reports\\extent-report\\screenshots\\";
+        String screenshotDir = System.getProperty("user.dir")+"\\src\\main\\report\\extent-report\\screenshots\\";
 
         new File(screenshotDir).mkdirs();
 

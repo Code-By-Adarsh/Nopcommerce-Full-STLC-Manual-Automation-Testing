@@ -8,6 +8,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import reports.ExtentReportManager;
+import utils.ScreenshotUtil;
 
 public class ExtentListener implements ITestListener {
     ExtentReports extent = ExtentReportManager.getInstances();
@@ -35,7 +36,7 @@ public class ExtentListener implements ITestListener {
         try{
             WebDriver driver = ((base.BaseTest) testClass).getDriver();
 
-            String screenshotPath = utils.screenshotUtil.captureScreenshot(driver,result.getMethod().getMethodName());
+            String screenshotPath = ScreenshotUtil.captureScreenshot(driver,result.getMethod().getMethodName());
 
             test.get().addScreenCaptureFromPath(screenshotPath,"Failure Screenshot");
         }catch (Exception e){

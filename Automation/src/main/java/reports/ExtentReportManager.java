@@ -9,7 +9,7 @@ public class ExtentReportManager {
 
     public static ExtentReports getInstances(){
         if (extent == null){
-            String reportPath = System.getProperty("user.dir")+"\\src\\main\\reports\\extent-report\\NopCommerceReport.html";
+            String reportPath = System.getProperty("user.dir")+"\\src\\main\\report\\extent-report\\NopCommerceReport.html";
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 
             spark.config().setDocumentTitle("NopCommerce Project");

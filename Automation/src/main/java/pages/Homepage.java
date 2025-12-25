@@ -13,6 +13,7 @@ import java.time.Duration;
 public class Homepage {
     private WebDriver driver;
     private WebDriverWait wait;
+    private SoftAssert softAssert;
 
     private By nopCommerceLogo = By.cssSelector("img[alt='nopCommerce demo store']");
     private By registerNav = By.className("ico-register");
@@ -51,6 +52,7 @@ public class Homepage {
         this.driver = driver;
         driver.get("https://demo.nopcommerce.com/");
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.softAssert = new SoftAssert();
     }
 
     public boolean isLogoVisible(){
